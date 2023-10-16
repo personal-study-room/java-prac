@@ -18,6 +18,7 @@ public class Main {
         clickFormElement(dropDown1);
     }
 
+    // 다형성을 적용하여 func() 메서드를 실행하도록 만듦
     private static void clickFormElement(FormElement fe) {
         fe.func();
     }
